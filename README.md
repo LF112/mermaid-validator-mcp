@@ -1,5 +1,7 @@
 # Mermaid Validator MCP
 
+[![MCP Badge](https://lobehub.com/badge/mcp/lf112-mermaid-validator-mcp)](https://lobehub.com/mcp/lf112-mermaid-validator-mcp)
+
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server built with [Bun](https://bun.sh) and TypeScript that validates [Mermaid](https://mermaid.js.org) diagram syntax.
 
 ## Quick Start
