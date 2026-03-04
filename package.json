@@ -1,6 +1,6 @@
 {
   "name": "mermaid-validator-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for validating Mermaid diagram syntax",
   "type": "module",
   "author": "LF112(futiwolf) <lf@lf112.net>",
@@ -19,7 +19,7 @@
     "diagram"
   ],
   "bin": {
-    "mermaid-validator-mcp": "index.ts"
+    "mermaid-validator-mcp": "dist/main.js"
   },
   "files": [
     "index.ts",

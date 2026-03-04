@@ -20,7 +20,7 @@ const { default: mermaid } = await import("mermaid");
 // Create an MCP server
 const server = new McpServer({
   name: "mermaid-validator-mcp",
-  version: "1.0.0",
+  version: "1.0.1",
 });
 
 // Add a mermaid validation tool

@@ -2,9 +2,32 @@
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server built with [Bun](https://bun.sh) and TypeScript that validates [Mermaid](https://mermaid.js.org) diagram syntax.
 
+## Quick Start
+
+This package is published on npm. You can run it directly with npx:
+
+```bash
+npx -y mermaid-validator-mcp
+```
+
 ## MCP Client Configuration
 
 Add the server to your MCP client (e.g. Claude Desktop) configuration:
+
+### Using npx (recommended)
+
+```json
+{
+  "mcpServers": {
+    "mermaid-validator": {
+      "command": "npx",
+      "args": ["-y", "mermaid-validator-mcp"]
+    }
+  }
+}
+```
+
+### Using local source
 
 ```json
 {
